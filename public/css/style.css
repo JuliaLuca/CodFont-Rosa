@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 5rem;
+    background-color: rgb(243, 70, 191);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color:black
+}
+header h1 span{
+    color: rgb(247, 7, 47);
+    font-family: 'Beau Rivage', cursive;
+}
+body{
+    background-color: rgb(247, 194, 203);
+}
+section#sobre{
+    display: flex;
+
+}
+section#sobre div h2{
+    margin: 1rem;
+}
+section#sobre div p{
+    margin: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+section#card{
+    display: flex;
+}
+section#card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 2rem;
+    background: white;
+    padding: 2rem;
+    margin: auto;
+    box-shadow: 5rem 5rem 10rem rgb(0 0 0 / 34%);
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+section#card div img{
+    width: 50vw;
+    padding: 2rem;
+}
+section#bot{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+button#btn > a{
+    text-decoration: none;
+
+}
+section#bot div button#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(201, 6, 39) ;
+    width: 15vw;
+    height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(243, 70, 191);
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+section#bot div button#btn:hover{
+    background-color: rgb(243, 70, 191);
+    color: rgb(201, 6, 39);
+}
+footer{
+    margin-top: 10rem;
+    font-size: 1rem;
+    font-family: serif;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(243, 70, 191);
+    padding-bottom: 1rem;
+    padding: 2rem;
+    align-items: center;
+}
+section#ementa div h2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+section#ementa div ul.lista{
+    margin: 3rem;
+}
+section#ementa div ul.lista li{
+    font-size: 1rem;
+    font-family:'Roboto', sans-serif ;
+}
+button#cadastrobtn > a {
+    text-decoration: none;
+}
+section#bot2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+section#bot2 div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(201, 6, 39) ;
+    width: 15vw;
+    height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(243, 70, 191);
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+section#bot2 div button:hover{
+    background-color: rgb(243, 70, 191);
+    color: rgb(201, 6, 39);
+    
+}
+section#cadastro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 5rem;
+}
+section#cadastro h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+section#cadastro form input{
+    width: 100%;
+    padding: 0.7rem;
+    font-size:1rem;
+    outline: none;
+    border: solid 2px rgb(197, 193, 193);
+    margin: 0, 1rem, 1rem, 1rem;
+}
+section#cadastro form label{
+    margin: 1rem;
+    color:black;
+
+}
+section#cadastro form{
+    width: 50%;
+}
+section#cadastro form button{
+    padding: 0.6rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: white;
+    border: solid 1px rgb(201, 6, 39);
+    border-radius: 10rem;
+    color: rgb(201, 6, 39);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+}
+section#cadastro form button:hover{
+    background-color: rgb(201, 6, 39) ;
+    color:white;
+}
+nav.desktop a{
+    text-decoration: none;
+    color: black;
+}
