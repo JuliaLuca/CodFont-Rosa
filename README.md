@@ -6,6 +6,7 @@ projeto para um futuro tcc
 ###O projeto tem o intuito de chamar mulheres de todas as idades, com sonhos e interesses em ingressar na area da TI, a principil com um curso basico, de informatica, com a ementa do IFRJ(Campus Arraial do Cabo), que é onde estou terminando o meu ensino medio, com cursso tecnico em informatica.
 
 ###Linguagem: JavaScript
+
 ###Tecnologias: Express, HTML, CSS e MVC
 
 ###Projeto incompleto
